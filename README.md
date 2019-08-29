@@ -49,4 +49,16 @@ ps. 安裝 Homebrew 前先確認是否有安裝 Xcode 若有請先去更新它�
 參考：https://ithelp.ithome.com.tw/articles/10191745
 https://www.kancloud.cn/shellway/npm-doc/199981
 
+---------------------------------------------
+npm的包安裝分為本地安裝（local）、全局安裝（global）兩種，從敲的命令行來看，差別只是有沒有-g而已，比如
 
+npm install grunt # 本地安装
+npm install -g grunt-cli # 全局安装
+這兩種安裝方式有什麼區別呢？從npm官方文檔的說明來看，主要區別在於（後面通過具體的例子來說明）：
+本地安裝
+1.將安裝包放在./node_modules下（運行npm時所在的目錄）
+2.可以通過require()來引入本地安裝的包
+
+全局安裝
+1.將安裝包放在/usr/local下
+2.可以直接在命令行里使用
