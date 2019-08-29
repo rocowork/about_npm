@@ -62,3 +62,29 @@ npm install -g grunt-cli # 全局安装
 全局安裝
 1.將安裝包放在/usr/local下
 2.可以直接在命令行里使用
+
+
+Initialized a git repository.
+
+Success! Created my-app at /Users/itservice/my-app
+Inside that directory, you can run several commands:
+
+  yarn start
+    Starts the development server.
+
+  yarn build
+    Bundles the app into static files for production.
+
+  yarn test
+    Starts the test runner.
+
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-app
+  yarn start
+
+Happy hacking!
