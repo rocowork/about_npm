@@ -47,5 +47,6 @@ ps. 安裝 Homebrew 前先確認是否有安裝 Xcode 若有請先去更新它�
 >yarn --version
 
 參考：https://ithelp.ithome.com.tw/articles/10191745
+https://www.kancloud.cn/shellway/npm-doc/199981
 
 
